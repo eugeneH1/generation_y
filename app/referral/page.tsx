@@ -14,7 +14,7 @@ const ReferralPage: React.FC = () => {
               Join Our Referral Program
             </h1>
             <p className="text-lg sm:text-xl text-gray-600 mb-6">
-              Earn rewards by referring your friends and family to our platform. It's easy, fast, and mutually beneficial!
+              Earn rewards by referring your friends and family to our platform. It&apos;s easy, fast, and mutually beneficial!
             </p>
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2">

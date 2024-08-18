@@ -19,15 +19,15 @@ export function Navbar({ className }: { className?: string }) {
             <div className="flex flex-col space-y-4">
               <HoveredLink href="/finance">Vehicle Finance</HoveredLink>
               <HoveredLink href="https://thirdparty.signio.co.za/ThirdPartyIntegration/application?skin=LIGHTSTONE&uuid=00000180-fb8c-6ad9-9a38-3a03e1fe0ff4">Private to Private Finance</HoveredLink>
-              <HoveredLink href="/services/refinance-car">Re-finance a Car</HoveredLink>
-              <HoveredLink href="/services/balloon-residual-refinance">Balloon/Residual Refinance</HoveredLink>
+              <HoveredLink href="https://thirdparty.signio.co.za/ThirdPartyIntegration/application?skin=LIGHTSTONE&uuid=00000180-fb8c-6ad9-9a38-3a03e1fe0ff4">Re-finance a Car</HoveredLink>
+              <HoveredLink href="https://thirdparty.signio.co.za/ThirdPartyIntegration/application?skin=LIGHTSTONE&uuid=00000180-fb8c-6ad9-9a38-3a03e1fe0ff4">Balloon/Residual Refinance</HoveredLink>
               <HoveredLink href="/warranties-service-plans">Extended warranties and Service Plans</HoveredLink>
             </div>
             <div className="flex flex-col space-y-4">
               <HoveredLink href="/referral">Referral and Spotters Fees</HoveredLink>
-              <HoveredLink href="/services/cash-loans">Cash Loans</HoveredLink>
-              <HoveredLink href="/services/repair-loans">Workshops/Services/Repair Loans</HoveredLink>
-              <HoveredLink href="/services/leisure-finance">Leisure Finance</HoveredLink>
+              <HoveredLink href="https://www.motodata.co.za:8443/leadapplicationDealership.jsf?supplier=002245MD&compGuid=e7ece5ac-7b42-46e7-8f82-3aacf262d066%20">Cash Loans</HoveredLink>
+              <HoveredLink href="https://www.motodata.co.za:8443/leadapplicationDealership.jsf?supplier=002245MD&compGuid=e7ece5ac-7b42-46e7-8f82-3aacf262d066%20">Workshops/Services/Repair Loans</HoveredLink>
+              <HoveredLink href="https://www.motodata.co.za:8443/leadapplicationDealership.jsf?supplier=002245MD&compGuid=e7ece5ac-7b42-46e7-8f82-3aacf262d066%20">Leisure Finance</HoveredLink>
             </div>
           </div>
         </MenuItem>
