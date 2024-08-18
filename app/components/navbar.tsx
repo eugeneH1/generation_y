@@ -18,7 +18,7 @@ export function Navbar({ className }: { className?: string }) {
         <MenuItem setActive={setActive} active={active} item="Services">
           <div className="text-sm grid grid-cols-2 gap-10 p-4">
             <div className="flex flex-col space-y-4">
-              <HoveredLink href="/services/vehicle-finance">Vehicle Finance</HoveredLink>
+              <HoveredLink href="/finance/">Vehicle Finance</HoveredLink>
               <HoveredLink href="/services/private-to-private-finance">Private to Private Finance</HoveredLink>
               <HoveredLink href="/services/refinance-car">Re-finance a Car</HoveredLink>
               <HoveredLink href="/services/balloon-residual-refinance">Balloon/Residual Refinance</HoveredLink>
