@@ -9,26 +9,6 @@ const Footer: React.FC = () => {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="space-y-4">
           <div className="flex items-center">
-            {/* Uncomment and adjust the Image component if needed */}
-            {/* <Image
-              src={logo_black}
-              width={24}
-              height={24}
-              alt="Generation Y Solutions Logo"
-              className="h-8 w-8 mr-2"
-            /> */}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              className="h-8 w-8 text-gray-400 mr-2"
-            />
             <span className="text-xl font-bold">Generation Y Solutions</span>
           </div>
           <p className="text-gray-400">
@@ -50,11 +30,6 @@ const Footer: React.FC = () => {
                   Terms & Conditions
                 </a>
               </li>
-              {/* <li>
-                <a className="text-gray-400 hover:text-white" href="https://www.youtube.com" rel="ugc">
-                  Services
-                </a>
-              </li> */}
             </ul>
           </div>
           <div className="space-y-2">
