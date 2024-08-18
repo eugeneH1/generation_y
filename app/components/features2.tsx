@@ -6,7 +6,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
-export default function Component() {
+export default function Features() {
   return (
     <section className="flex flex-col items-center justify-center py-12 min-h-screen">
       <h2 className="text-4xl font-bold mb-12">Our Features</h2>
