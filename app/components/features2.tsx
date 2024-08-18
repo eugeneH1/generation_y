@@ -5,17 +5,18 @@
  */
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
-
+import Image from "next/image"
 export default function Features() {
   return (
     <section className="flex flex-col items-center justify-center py-12 min-h-screen">
-      <h2 className="text-4xl font-bold mb-12">Our Features</h2>
+      <h2 className="text-4xl font-bold mb-12">Our Services</h2>
       <div className="grid grid-cols-3 gap-8 max-w-6xl mx-auto p-8 bg-gray-100 rounded-lg">
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <RocketIcon className="w-6 h-6 text-white" />
+            {/* <RocketIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/car.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 1</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Vehicle Finance</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -24,9 +25,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <LightbulbIcon className="w-6 h-6 text-white" />
+            {/* <LightbulbIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/finance.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 2</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Private to Private Finance</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -35,9 +37,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <SunIcon className="w-6 h-6 text-white" />
+            {/* <SunIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/refinance.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 3</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Re-finance a Car</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -46,9 +49,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <LeafIcon className="w-6 h-6 text-white" />
+            {/* <LeafIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/balloon.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 4</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Balloon/Residual Refinance</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -57,9 +61,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <WavesIcon className="w-6 h-6 text-white" />
+            {/* <WavesIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/document.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 5</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Extended Warranties and Service Plans</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -68,9 +73,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <CloudIcon className="w-6 h-6 text-white" />
+            {/* <CloudIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/referral.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 6</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Referral and Spotter Fees</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -79,9 +85,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <CodeIcon className="w-6 h-6 text-white" />
+            {/* <CodeIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/cash.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 7</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Cash Loans</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -90,9 +97,10 @@ export default function Features() {
         </div>
         <div className="group flex flex-col items-center justify-center gap-4 p-6 rounded-lg bg-white hover:bg-gray-100 transition-colors hover:scale-105 shadow-lg">
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
-            <PuzzleIcon className="w-6 h-6 text-white" />
+            {/* <PuzzleIcon className="w-6 h-6 text-white" /> */}
+            <Image src="/tool.svg" alt="Car" width={24} height={24} className="invert"/>
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 8</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Workshops/Services/Repair Loans</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
@@ -103,7 +111,7 @@ export default function Features() {
           <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
             <HeartIcon className="w-6 h-6 text-white" />
           </div>
-          <span className="text-lg font-medium group-hover:text-gray-900">Feature 9</span>
+          <span className="text-lg font-medium group-hover:text-gray-900">Leisure Finance</span>
           <Link href="#" className="mt-4" prefetch={false}>
             <Button variant="outline" size="lg">
               Learn More
