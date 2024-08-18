@@ -24,7 +24,7 @@ export function Navbar({ className }: { className?: string }) {
               <HoveredLink href="/warranties-service-plans">Extended warranties and Service Plans</HoveredLink>
             </div>
             <div className="flex flex-col space-y-4">
-              <HoveredLink href="/services/referral-spotters-fees">Referral and Spotters Fees</HoveredLink>
+              <HoveredLink href="/referral">Referral and Spotters Fees</HoveredLink>
               <HoveredLink href="/services/cash-loans">Cash Loans</HoveredLink>
               <HoveredLink href="/services/repair-loans">Workshops/Services/Repair Loans</HoveredLink>
               <HoveredLink href="/services/leisure-finance">Leisure Finance</HoveredLink>
