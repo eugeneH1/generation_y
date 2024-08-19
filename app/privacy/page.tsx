@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
   );
 };
 
-const Section = ({ title, content }) => (
+const Section = ({ title, content }: { title: string, content: React.ReactNode }) => (
   <div>
     <h2 className="text-2xl font-semibold mb-4">{title}</h2>
     <p className="text-gray-600 leading-relaxed">{content}</p>

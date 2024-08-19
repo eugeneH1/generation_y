@@ -25,9 +25,9 @@ const Header: React.FC = () => {
             <Image 
               src="/logo_no_bg.png" 
               alt="Logo" 
-              width={400} 
-              height={400} 
-              className="hidden md:block lg:hidden" 
+              width={100} 
+              height={100} 
+              className="hidden md:block lg:hidden md:mt-6 md:ml-6" 
             />
           </Link>
         </div>
