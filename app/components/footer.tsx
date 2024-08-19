@@ -21,12 +21,12 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-bold">Legal</h4>
             <ul className="space-y-1">
               <li>
-                <a className="text-gray-400 hover:text-white" href="./privacy_policy" rel="ugc">
+                <a className="text-gray-400 hover:text-white" href="./privacy" rel="ugc">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a className="text-gray-400 hover:text-white" href="./termspage" rel="ugc">
+                <a className="text-gray-400 hover:text-white" href="./terms" rel="ugc">
                   Terms & Conditions
                 </a>
               </li>
