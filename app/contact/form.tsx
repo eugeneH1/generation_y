@@ -72,7 +72,7 @@ export function ContactForm() {
     <Card className="w-full max-w-2xl mx-auto">
       <CardHeader>
         <CardTitle>Contact Us</CardTitle>
-        <CardDescription>Send us a message and we'll get back to you as soon as possible.</CardDescription>
+        <CardDescription>Send us a message and we&apos;ll get back to you as soon as possible.</CardDescription>
       </CardHeader>
       <CardContent>
         <Form {...form}>
