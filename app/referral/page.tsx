@@ -19,7 +19,7 @@ const ReferralPage: React.FC = () => {
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2">
             <Image
-              src="/referral.webp"
+              src="/referral.png"
               alt="Referral Program"
               width={600}
               height={400}
