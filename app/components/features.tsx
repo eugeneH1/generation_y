@@ -79,7 +79,7 @@ export default function Features() {
     {
       id: "leisure-finance",
       title: "Leisure Finance",
-      icon: "/heart.svg",
+      icon: "/leisure.svg",
       link: "https://www.motodata.co.za:8443/leadapplicationDealership.jsf?supplier=002245MD&compGuid=e7ece5ac-7b42-46e7-8f82-3a03e1fe0ff4%20",
       description: "Get financing for leisure activities like boats, caravans, or motorcycles, with competitive interest rates and flexible repayment terms.",
     },
@@ -96,7 +96,7 @@ export default function Features() {
             onMouseEnter={() => handleMouseEnter(service.id)}
             onMouseLeave={handleMouseLeave}
           >
-            <div className="w-12 h-12 rounded-full bg-gray-800 flex items-center justify-center">
+            <div className="w-12 h-12 rounded-full bg-gray-600 flex items-center justify-center">
               <Image src={service.icon} alt={service.title} width={24} height={24} className="invert"/>
             </div>
             <span className="text-lg font-medium group-hover:text-gray-900">{service.title}</span>
