@@ -22,14 +22,14 @@ const Header: React.FC = () => {
               alt="Logo" 
               width={241} 
               height={81} 
-              className="hidden lg:block xl:hidden" 
+              className="block md:hidden lg:block xl:hidden" 
             />
             <Image 
               src="/logo_no_bg.png" 
               alt="Logo" 
               width={100} 
               height={100} 
-              className="block lg:hidden" 
+              className="hidden md:block lg:hidden" 
             />
           </Link>
         </div>
